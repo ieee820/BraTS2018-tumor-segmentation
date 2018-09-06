@@ -1,0 +1,10 @@
+root: /usr/data/pkao/brats2018/
+#data_dir: /usr/data/pkao/brats2018/training
+#test_data_dir: /usr/data/pkao/brats2018/validation
+#test_data_dir: /media/hdd1/pkao/brats2018/validation
+data_dir: /media/hdd1/pkao/brats2018/training
+test_data_dir: /usr/data/pkao/brats2018/testing
+train_dir: /home/pkao/BraTS2018/segmentation/ckpts
+sample_size: 25
+sub_sample_size: 19
+target_size: 9

@@ -1,0 +1,283 @@
+2018-05-24 09:17:46,958 -------------- New training session ----------------
+alpha: 1
+batch_size: 2
+cfg: unet_dice2_c25
+criterion: cross_entropy_dice
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: SingleDataM
+gpu: '0'
+name: unet_dice2_c25
+net: Unet
+net_params:
+  c: 25
+  dropout: 0.3
+  n: 16
+  norm: gn
+num_epochs: 300
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  150: null
+  250: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: Compose([ Pad((0, 0, 0, 5, 0)), NumpyType((np.float32, np.int64,
+  np.int64)), ])
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: all.txt
+train_transforms: Compose([ RandCrop(128), NumpyType((np.float32, np.int64, np.int64)),
+  ])
+valid_freq: 50
+workers: 8
+
+2018-05-24 09:18:11,110 -------------- New training session ----------------
+alpha: 1
+batch_size: 2
+cfg: unet_dice2_c25
+criterion: cross_entropy_dice
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: SingleDataM
+gpu: '0'
+name: unet_dice2_c25
+net: Unet
+net_params:
+  c: 25
+  dropout: 0.3
+  n: 16
+  norm: gn
+num_epochs: 300
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  150: null
+  250: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: Compose([ Pad((0, 0, 0, 5, 0)), NumpyType((np.float32, np.int64,
+  np.int64)), ])
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: all.txt
+train_transforms: Compose([ RandCrop(128), NumpyType((np.float32, np.int64, np.int64)),
+  ])
+valid_freq: 50
+workers: 8
+
+2018-05-24 09:19:04,110 -------------- New training session ----------------
+alpha: 1
+batch_size: 2
+cfg: unet_dice2_c25
+criterion: cross_entropy_dice
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: SingleDataM
+gpu: '0'
+name: unet_dice2_c25
+net: Unet
+net_params:
+  c: 25
+  dropout: 0.3
+  n: 16
+  norm: gn
+num_epochs: 300
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  150: null
+  250: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: Compose([ Pad((0, 0, 0, 5, 0)), NumpyType((np.float32, np.int64,
+  np.int64)), ])
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: all.txt
+train_transforms: Compose([ RandCrop(128), NumpyType((np.float32, np.int64, np.int64)),
+  ])
+valid_freq: 50
+workers: 8
+
+2018-05-24 09:19:22,957 Iter 1, Epoch 0.0070, Loss 8.4821
+2018-05-24 09:19:23,765 Iter 2, Epoch 0.0140, Loss 2.0667
+2018-05-24 09:19:24,818 Iter 3, Epoch 0.0211, Loss 2.4961
+2018-05-24 09:19:25,874 Iter 4, Epoch 0.0281, Loss 1.6497
+2018-05-24 09:19:26,927 Iter 5, Epoch 0.0351, Loss 1.4023
+2018-05-24 09:19:27,994 Iter 6, Epoch 0.0421, Loss 1.2624
+2018-05-24 09:19:29,035 Iter 7, Epoch 0.0491, Loss 1.0342
+2018-05-24 09:19:30,092 Iter 8, Epoch 0.0561, Loss 1.0714
+2018-05-24 09:19:31,150 Iter 9, Epoch 0.0632, Loss 1.4320
+2018-05-24 09:19:32,201 Iter 10, Epoch 0.0702, Loss 1.1239
+2018-05-24 09:19:33,255 Iter 11, Epoch 0.0772, Loss 1.0803
+2018-05-24 09:19:34,305 Iter 12, Epoch 0.0842, Loss 1.0276
+2018-05-24 09:19:35,371 Iter 13, Epoch 0.0912, Loss 1.0356
+2018-05-24 09:19:36,474 Iter 14, Epoch 0.0982, Loss 1.1530
+2018-05-24 09:19:37,477 Iter 15, Epoch 0.1053, Loss 1.3096
+2018-05-24 09:19:38,523 Iter 16, Epoch 0.1123, Loss 1.1771
+2018-05-24 09:19:39,561 Iter 17, Epoch 0.1193, Loss 1.6418
+2018-05-24 09:19:40,622 Iter 18, Epoch 0.1263, Loss 1.1751
+2018-05-24 09:19:41,675 Iter 19, Epoch 0.1333, Loss 1.0847
+2018-05-24 09:19:42,723 Iter 20, Epoch 0.1404, Loss 1.1825
+2018-05-24 09:19:43,781 Iter 21, Epoch 0.1474, Loss 1.1621
+2018-05-24 09:19:44,841 Iter 22, Epoch 0.1544, Loss 1.1232
+2018-05-24 09:19:45,919 Iter 23, Epoch 0.1614, Loss 1.3561
+2018-05-24 09:19:46,957 Iter 24, Epoch 0.1684, Loss 1.1713
+2018-05-24 09:19:48,017 Iter 25, Epoch 0.1754, Loss 1.0665
+2018-05-24 09:19:49,072 Iter 26, Epoch 0.1825, Loss 1.1425
+2018-05-24 09:19:50,142 Iter 27, Epoch 0.1895, Loss 1.0589
+2018-05-24 09:19:51,199 Iter 28, Epoch 0.1965, Loss 1.0331
+2018-05-24 09:19:52,261 Iter 29, Epoch 0.2035, Loss 1.1197
+2018-05-24 09:19:53,318 Iter 30, Epoch 0.2105, Loss 1.0834
+2018-05-24 09:19:54,380 Iter 31, Epoch 0.2175, Loss 1.0164
+2018-05-24 09:19:55,440 Iter 32, Epoch 0.2246, Loss 1.0405
+2018-05-24 09:19:56,500 Iter 33, Epoch 0.2316, Loss 1.0322
+2018-05-24 09:19:57,558 Iter 34, Epoch 0.2386, Loss 1.2730
+2018-05-24 09:19:58,637 Iter 35, Epoch 0.2456, Loss 1.1836
+2018-05-24 09:19:59,691 Iter 36, Epoch 0.2526, Loss 1.1202
+2018-05-24 09:20:00,755 Iter 37, Epoch 0.2596, Loss 1.0639
+2018-05-24 09:20:01,815 Iter 38, Epoch 0.2667, Loss 1.1598
+2018-05-24 09:20:02,882 Iter 39, Epoch 0.2737, Loss 1.2110
+2018-05-24 09:20:03,948 Iter 40, Epoch 0.2807, Loss 1.0687
+2018-05-24 09:20:04,996 Iter 41, Epoch 0.2877, Loss 1.0578
+2018-05-24 09:20:06,057 Iter 42, Epoch 0.2947, Loss 1.1111
+2018-05-24 09:20:07,124 Iter 43, Epoch 0.3018, Loss 1.0478
+2018-05-24 09:20:08,184 Iter 44, Epoch 0.3088, Loss 1.0900
+2018-05-24 09:20:09,241 Iter 45, Epoch 0.3158, Loss 1.0726
+2018-05-24 09:20:10,300 Iter 46, Epoch 0.3228, Loss 1.1067
+2018-05-24 09:20:11,407 Iter 47, Epoch 0.3298, Loss 0.9896
+2018-05-24 09:20:12,428 Iter 48, Epoch 0.3368, Loss 1.1048
+2018-05-24 09:20:13,494 Iter 49, Epoch 0.3439, Loss 1.0003
+2018-05-24 09:20:14,572 Iter 50, Epoch 0.3509, Loss 0.9965
+2018-05-24 09:20:15,641 Iter 51, Epoch 0.3579, Loss 0.9674
+2018-05-24 09:20:16,728 Iter 52, Epoch 0.3649, Loss 0.9699
+2018-05-24 09:20:17,756 Iter 53, Epoch 0.3719, Loss 0.9605
+2018-05-24 09:20:18,815 Iter 54, Epoch 0.3789, Loss 1.0242
+2018-05-24 09:20:19,879 Iter 55, Epoch 0.3860, Loss 1.1184
+2018-05-24 09:20:20,930 Iter 56, Epoch 0.3930, Loss 1.0022
+2018-05-24 09:20:21,986 Iter 57, Epoch 0.4000, Loss 1.0192
+2018-05-24 09:20:23,049 Iter 58, Epoch 0.4070, Loss 0.8906
+2018-05-24 09:22:37,668 -------------- New training session ----------------
+alpha: 1
+batch_size: 2
+cfg: unet_dice2_c25
+criterion: cross_entropy_dice
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: SingleDataM
+gpu: '0'
+name: unet_dice2_c25
+net: Unet
+net_params:
+  c: 25
+  dropout: 0.3
+  n: 16
+  norm: gn
+num_epochs: 300
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  150: null
+  250: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: Compose([ Pad((0, 0, 0, 5, 0)), NumpyType((np.float32, np.int64,
+  np.int64)), ])
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: all.txt
+train_transforms: Compose([ RandCrop(128), NumpyType((np.float32, np.int64, np.int64)),
+  ])
+valid_freq: 50
+workers: 8
+
+2018-05-24 09:22:57,866 Iter 1, Epoch 0.0070, Loss 9.0096
+2018-05-24 09:22:58,673 Iter 2, Epoch 0.0140, Loss 2.1437
+2018-05-24 09:22:59,729 Iter 3, Epoch 0.0211, Loss 1.7157
+2018-05-24 09:23:00,793 Iter 4, Epoch 0.0281, Loss 1.8708
+2018-05-24 09:23:01,865 Iter 5, Epoch 0.0351, Loss 0.8742
+2018-05-24 09:23:02,925 Iter 6, Epoch 0.0421, Loss 1.9230
+2018-05-24 09:23:03,977 Iter 7, Epoch 0.0491, Loss 1.1766
+2018-05-24 09:23:05,041 Iter 8, Epoch 0.0561, Loss 1.2001
+2018-05-24 09:23:06,084 Iter 9, Epoch 0.0632, Loss 0.8873
+2018-05-24 09:23:07,144 Iter 10, Epoch 0.0702, Loss 1.2126
+2018-05-24 09:23:08,208 Iter 11, Epoch 0.0772, Loss 0.9675
+2018-05-24 09:23:09,270 Iter 12, Epoch 0.0842, Loss 0.9699
+2018-05-24 09:23:10,324 Iter 13, Epoch 0.0912, Loss 1.2144
+2018-05-24 09:23:11,377 Iter 14, Epoch 0.0982, Loss 1.0640
+2018-05-24 09:23:12,440 Iter 15, Epoch 0.1053, Loss 1.3040
+2018-05-24 09:23:13,496 Iter 16, Epoch 0.1123, Loss 1.5222
+2018-05-24 09:23:14,550 Iter 17, Epoch 0.1193, Loss 1.5249
+2018-05-24 09:23:15,621 Iter 18, Epoch 0.1263, Loss 1.3192
+2018-05-24 09:23:16,667 Iter 19, Epoch 0.1333, Loss 0.9620
+2018-05-24 09:23:17,734 Iter 20, Epoch 0.1404, Loss 1.0363
+2018-05-24 09:23:18,803 Iter 21, Epoch 0.1474, Loss 0.8975
+2018-05-24 09:23:19,856 Iter 22, Epoch 0.1544, Loss 0.9349
+2018-05-24 09:23:20,915 Iter 23, Epoch 0.1614, Loss 1.0727
+2018-05-24 09:23:21,981 Iter 24, Epoch 0.1684, Loss 1.0724
+2018-05-24 09:23:23,037 Iter 25, Epoch 0.1754, Loss 0.8110
+2018-05-24 09:23:24,092 Iter 26, Epoch 0.1825, Loss 0.8143
+2018-05-24 09:23:25,154 Iter 27, Epoch 0.1895, Loss 0.8098
+2018-05-24 09:23:26,228 Iter 28, Epoch 0.1965, Loss 0.8177
+2018-05-24 09:23:27,274 Iter 29, Epoch 0.2035, Loss 0.8491
+2018-05-24 09:23:28,336 Iter 30, Epoch 0.2105, Loss 0.8961
+2018-05-24 09:23:29,392 Iter 31, Epoch 0.2175, Loss 0.9065
+2018-05-24 09:23:30,456 Iter 32, Epoch 0.2246, Loss 0.7716
+2018-05-24 09:23:31,544 Iter 33, Epoch 0.2316, Loss 0.8353
+2018-05-24 09:23:32,586 Iter 34, Epoch 0.2386, Loss 1.0137
+2018-05-24 09:23:33,644 Iter 35, Epoch 0.2456, Loss 1.0077
+2018-05-24 09:23:34,710 Iter 36, Epoch 0.2526, Loss 0.8989
+2018-05-24 09:23:35,757 Iter 37, Epoch 0.2596, Loss 0.8786
+2018-05-24 09:23:36,814 Iter 38, Epoch 0.2667, Loss 0.9084
+2018-05-24 09:23:37,876 Iter 39, Epoch 0.2737, Loss 0.9458
+2018-05-24 09:23:38,940 Iter 40, Epoch 0.2807, Loss 0.8566
+2018-05-24 09:23:39,995 Iter 41, Epoch 0.2877, Loss 0.9232
+2018-05-24 09:23:41,072 Iter 42, Epoch 0.2947, Loss 0.8407
+2018-05-24 09:23:42,111 Iter 43, Epoch 0.3018, Loss 0.7890
+2018-05-24 09:23:43,187 Iter 44, Epoch 0.3088, Loss 0.8156
+2018-05-24 09:23:44,229 Iter 45, Epoch 0.3158, Loss 0.8656
+2018-05-24 09:23:45,299 Iter 46, Epoch 0.3228, Loss 0.8140
+2018-05-24 09:23:46,344 Iter 47, Epoch 0.3298, Loss 0.9321
+2018-05-24 09:23:47,415 Iter 48, Epoch 0.3368, Loss 1.0692
+2018-05-24 09:23:48,480 Iter 49, Epoch 0.3439, Loss 0.9774
+2018-05-24 09:23:49,550 Iter 50, Epoch 0.3509, Loss 0.9148
+2018-05-24 09:23:50,608 Iter 51, Epoch 0.3579, Loss 0.9298
+2018-05-24 09:23:51,665 Iter 52, Epoch 0.3649, Loss 0.9665
+2018-05-24 09:23:52,730 Iter 53, Epoch 0.3719, Loss 0.8456
+2018-05-24 09:23:53,793 Iter 54, Epoch 0.3789, Loss 0.8932
+2018-05-24 09:23:54,850 Iter 55, Epoch 0.3860, Loss 0.9528
+2018-05-24 09:23:55,915 Iter 56, Epoch 0.3930, Loss 0.8600
+2018-05-24 09:23:56,975 Iter 57, Epoch 0.4000, Loss 0.7864

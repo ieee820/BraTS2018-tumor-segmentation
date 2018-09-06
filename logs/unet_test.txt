@@ -1,0 +1,157 @@
+2018-05-16 20:29:20,117 Subject 1/57,  Brats17_CBICA_ASH_1, 
+2018-05-16 20:29:21,293 Subject 2/57,   Brats17_TCIA_203_1, 
+2018-05-16 20:29:22,476 Subject 3/57,   Brats17_TCIA_309_1, 
+2018-05-16 20:29:23,651 Subject 4/57,  Brats17_CBICA_ASA_1, 
+2018-05-16 20:29:24,833 Subject 5/57,   Brats17_TCIA_425_1, 
+2018-05-16 20:31:07,675 Subject 1/57,  Brats17_CBICA_ASH_1, whole: 0.6344, core: 0.8763, enhancing: 0.7329
+2018-05-16 20:31:09,303 Subject 2/57,   Brats17_TCIA_203_1, whole: 0.9354, core: 0.9015, enhancing: 0.8928
+2018-05-16 20:31:10,887 Subject 3/57,   Brats17_TCIA_309_1, whole: 0.8943, core: 0.8528, enhancing: 0.8446
+2018-05-16 20:31:12,579 Subject 4/57,  Brats17_CBICA_ASA_1, whole: 0.9361, core: 0.9536, enhancing: 0.8855
+2018-05-16 20:31:14,154 Subject 5/57,   Brats17_TCIA_425_1, whole: 0.8778, core: 0.2621, enhancing: 0.0000
+2018-05-16 20:31:15,868 Subject 6/57,    Brats17_2013_25_1, whole: 0.8919, core: 0.1774, enhancing: 0.0000
+2018-05-16 20:31:17,564 Subject 7/57,   Brats17_TCIA_603_1, whole: 0.9604, core: 0.9326, enhancing: 0.7749
+2018-05-16 20:31:19,121 Subject 8/57,  Brats17_CBICA_AOO_1, whole: 0.9387, core: 0.9305, enhancing: 0.8587
+2018-05-16 20:31:20,740 Subject 9/57,   Brats17_TCIA_499_1, whole: 0.8660, core: 0.9432, enhancing: 0.9137
+2018-05-16 20:31:22,429 Subject 10/57,  Brats17_CBICA_ASW_1, whole: 0.9094, core: 0.9370, enhancing: 0.9008
+2018-05-16 20:31:24,085 Subject 11/57,   Brats17_TCIA_390_1, whole: 0.8914, core: 0.8057, enhancing: 0.8474
+2018-05-16 20:31:25,727 Subject 12/57,   Brats17_TCIA_117_1, whole: 0.9221, core: 0.9503, enhancing: 0.8937
+2018-05-16 20:31:27,377 Subject 13/57,   Brats17_TCIA_478_1, whole: 0.9591, core: 0.9450, enhancing: 0.8859
+2018-05-16 20:31:29,008 Subject 14/57,  Brats17_CBICA_AUN_1, whole: 0.9372, core: 0.9507, enhancing: 0.8648
+2018-05-16 20:31:30,609 Subject 15/57,  Brats17_CBICA_ATB_1, whole: 0.8853, core: 0.9071, enhancing: 0.8533
+2018-05-16 20:31:32,286 Subject 16/57,   Brats17_TCIA_257_1, whole: 0.8629, core: 0.7761, enhancing: 0.7379
+2018-05-16 20:31:33,890 Subject 17/57,  Brats17_CBICA_BFB_1, whole: 0.9080, core: 0.9044, enhancing: 0.8058
+2018-05-16 20:31:35,541 Subject 18/57,   Brats17_TCIA_280_1, whole: 0.9187, core: 0.8951, enhancing: 0.9116
+2018-05-16 20:31:37,269 Subject 19/57,  Brats17_CBICA_ATF_1, whole: 0.7309, core: 0.3577, enhancing: 0.4625
+2018-05-16 20:31:38,909 Subject 20/57,   Brats17_TCIA_131_1, whole: 0.9409, core: 0.9332, enhancing: 0.9273
+2018-05-16 20:31:40,561 Subject 21/57,   Brats17_TCIA_460_1, whole: 0.9205, core: 0.8474, enhancing: 0.7436
+2018-05-16 20:31:42,204 Subject 22/57,   Brats17_TCIA_274_1, whole: 0.9343, core: 0.9054, enhancing: 0.8129
+2018-05-16 20:31:43,818 Subject 23/57,   Brats17_TCIA_265_1, whole: 0.9389, core: 0.8780, enhancing: 0.8017
+2018-05-16 20:31:45,376 Subject 24/57,   Brats17_TCIA_394_1, whole: 0.9065, core: 0.8801, enhancing: 0.7926
+2018-05-16 20:31:47,070 Subject 25/57,   Brats17_TCIA_332_1, whole: 0.9359, core: 0.8464, enhancing: 0.7924
+2018-05-16 20:31:48,689 Subject 26/57,    Brats17_2013_27_1, whole: 0.8925, core: 0.7947, enhancing: 0.7391
+2018-05-16 20:31:50,309 Subject 27/57,  Brats17_CBICA_AQZ_1, whole: 0.9269, core: 0.8966, enhancing: 0.7855
+2018-05-16 20:31:51,965 Subject 28/57,  Brats17_CBICA_AXJ_1, whole: 0.9132, core: 0.5855, enhancing: 0.7837
+2018-05-16 20:31:53,546 Subject 29/57,  Brats17_CBICA_AQO_1, whole: 0.9451, core: 0.9591, enhancing: 0.8980
+2018-05-16 20:31:55,115 Subject 30/57,   Brats17_TCIA_338_1, whole: 0.8931, core: 0.9328, enhancing: 0.9285
+2018-05-16 20:31:56,748 Subject 31/57,  Brats17_CBICA_AZH_1, whole: 0.9168, core: 0.9428, enhancing: 0.8792
+2018-05-16 20:31:58,257 Subject 32/57,    Brats17_2013_18_1, whole: 0.9079, core: 0.9200, enhancing: 0.8872
+2018-05-16 20:31:59,926 Subject 33/57,   Brats17_TCIA_226_1, whole: 0.9181, core: 0.8719, enhancing: 0.8766
+2018-05-16 20:32:01,549 Subject 34/57,   Brats17_TCIA_321_1, whole: 0.9495, core: 0.9618, enhancing: 0.9479
+2018-05-16 20:32:03,116 Subject 35/57,   Brats17_TCIA_283_1, whole: 0.7487, core: 0.8771, enhancing: 0.8374
+2018-05-16 20:32:04,711 Subject 36/57,  Brats17_CBICA_AXW_1, whole: 0.9243, core: 0.9442, enhancing: 0.8778
+2018-05-16 20:32:06,325 Subject 37/57,   Brats17_TCIA_411_1, whole: 0.8630, core: 0.2455, enhancing: 0.1653
+2018-05-16 20:32:07,942 Subject 38/57,  Brats17_CBICA_AXM_1, whole: 0.9117, core: 0.9524, enhancing: 0.8048
+2018-05-16 20:32:09,662 Subject 39/57,  Brats17_CBICA_ASN_1, whole: 0.9229, core: 0.9575, enhancing: 0.8480
+2018-05-16 20:32:11,282 Subject 40/57,  Brats17_CBICA_ASO_1, whole: 0.9337, core: 0.9413, enhancing: 0.8831
+2018-05-16 20:32:12,894 Subject 41/57,   Brats17_TCIA_444_1, whole: 0.8017, core: 0.7457, enhancing: 0.7020
+2018-05-16 20:32:14,528 Subject 42/57,   Brats17_TCIA_179_1, whole: 0.9150, core: 0.8295, enhancing: 0.9060
+2018-05-16 20:32:16,106 Subject 43/57,   Brats17_TCIA_152_1, whole: 0.9421, core: 0.5558, enhancing: 0.8676
+2018-05-16 20:32:17,711 Subject 44/57,   Brats17_TCIA_615_1, whole: 0.9157, core: 0.5981, enhancing: 0.3467
+2018-05-16 20:32:19,378 Subject 45/57,   Brats17_TCIA_451_1, whole: 0.9360, core: 0.9226, enhancing: 0.0000
+2018-05-16 20:32:20,938 Subject 46/57,   Brats17_TCIA_480_1, whole: 0.9397, core: 0.8913, enhancing: 0.0297
+2018-05-16 20:32:22,529 Subject 47/57,   Brats17_TCIA_624_1, whole: 0.9668, core: 0.6546, enhancing: 0.8381
+2018-05-16 20:32:24,144 Subject 48/57,    Brats17_2013_16_1, whole: 0.8503, core: 0.3611, enhancing: 1.0000
+2018-05-16 20:32:25,793 Subject 49/57,   Brats17_TCIA_402_1, whole: 0.9071, core: 0.9225, enhancing: 0.0000
+2018-05-16 20:32:27,335 Subject 50/57,   Brats17_TCIA_255_1, whole: 0.9213, core: 0.8374, enhancing: 0.4561
+2018-05-16 20:32:28,930 Subject 51/57,   Brats17_TCIA_449_1, whole: 0.9632, core: 0.8138, enhancing: 0.8835
+2018-05-16 20:32:30,457 Subject 52/57,    Brats17_2013_29_1, whole: 0.9369, core: 0.7282, enhancing: 0.0000
+2018-05-16 20:32:32,041 Subject 53/57,   Brats17_TCIA_620_1, whole: 0.4073, core: 0.0603, enhancing: 0.0870
+2018-05-16 20:32:33,659 Subject 54/57,   Brats17_TCIA_642_1, whole: 0.9668, core: 0.7104, enhancing: 0.0764
+2018-05-16 20:32:35,194 Subject 55/57,   Brats17_TCIA_653_1, whole: 0.9397, core: 0.1329, enhancing: 0.8132
+2018-05-16 20:32:36,774 Subject 56/57,   Brats17_TCIA_177_1, whole: 0.3534, core: 0.0000, enhancing: 1.0000
+2018-05-16 20:32:38,368 Subject 57/57,   Brats17_TCIA_623_1, whole: 0.9230, core: 0.8545, enhancing: 0.0000
+2018-05-16 20:32:38,370 Average scores: whole: 0.8876, core: 0.7711, enhancing: 0.6857
+2018-05-16 20:32:38,432 total time 1.7295 minutes
+2018-05-16 20:33:57,243 Subject 1/46,  Brats17_CBICA_AAM_1, 
+2018-05-16 20:33:58,525 Subject 2/46,  Brats17_CBICA_ABT_1, 
+2018-05-16 20:33:59,744 Subject 3/46,  Brats17_CBICA_ALA_1, 
+2018-05-16 20:34:00,971 Subject 4/46,  Brats17_CBICA_ALT_1, 
+2018-05-16 20:34:02,152 Subject 5/46,  Brats17_CBICA_ALV_1, 
+2018-05-16 20:34:03,351 Subject 6/46,  Brats17_CBICA_ALZ_1, 
+2018-05-16 20:34:04,569 Subject 7/46,  Brats17_CBICA_AMF_1, 
+2018-05-16 20:34:05,771 Subject 8/46,  Brats17_CBICA_AMU_1, 
+2018-05-16 20:34:06,971 Subject 9/46,  Brats17_CBICA_ANK_1, 
+2018-05-16 20:34:08,170 Subject 10/46,  Brats17_CBICA_APM_1, 
+2018-05-16 20:34:09,391 Subject 11/46,  Brats17_CBICA_AQE_1, 
+2018-05-16 20:34:10,591 Subject 12/46,  Brats17_CBICA_ARR_1, 
+2018-05-16 20:34:11,775 Subject 13/46,  Brats17_CBICA_ATW_1, 
+2018-05-16 20:34:12,970 Subject 14/46,  Brats17_CBICA_AUC_1, 
+2018-05-16 20:34:14,160 Subject 15/46,  Brats17_CBICA_AUE_1, 
+2018-05-16 20:34:15,364 Subject 16/46,  Brats17_CBICA_AZA_1, 
+2018-05-16 20:34:16,583 Subject 17/46,   Brats17_TCIA_195_1, 
+2018-05-16 20:34:17,786 Subject 18/46,   Brats17_TCIA_212_1, 
+2018-05-16 20:34:19,000 Subject 19/46,   Brats17_TCIA_216_1, 
+2018-05-16 20:34:20,204 Subject 20/46,   Brats17_TCIA_230_1, 
+2018-05-16 20:34:21,377 Subject 21/46,   Brats17_TCIA_248_1, 
+2018-05-16 20:34:22,574 Subject 22/46,   Brats17_TCIA_253_1, 
+2018-05-16 20:34:23,749 Subject 23/46,   Brats17_TCIA_288_1, 
+2018-05-16 20:34:25,099 Subject 24/46,   Brats17_TCIA_311_1, 
+2018-05-16 20:34:26,312 Subject 25/46,   Brats17_TCIA_313_1, 
+2018-05-16 20:34:27,511 Subject 26/46,   Brats17_TCIA_400_1, 
+2018-05-16 20:34:28,725 Subject 27/46,   Brats17_TCIA_600_1, 
+2018-05-16 20:34:29,937 Subject 28/46,   Brats17_TCIA_601_1, 
+2018-05-16 20:34:31,145 Subject 29/46,   Brats17_TCIA_602_1, 
+2018-05-16 20:34:32,360 Subject 30/46,   Brats17_TCIA_604_1, 
+2018-05-16 20:34:33,551 Subject 31/46,   Brats17_TCIA_609_1, 
+2018-05-16 20:34:34,754 Subject 32/46,   Brats17_TCIA_610_1, 
+2018-05-16 20:34:35,930 Subject 33/46,   Brats17_TCIA_611_1, 
+2018-05-16 20:34:37,183 Subject 34/46,   Brats17_TCIA_612_1, 
+2018-05-16 20:34:38,373 Subject 35/46,   Brats17_TCIA_613_1, 
+2018-05-16 20:34:39,608 Subject 36/46,   Brats17_TCIA_617_1, 
+2018-05-16 20:34:40,804 Subject 37/46,   Brats17_TCIA_636_1, 
+2018-05-16 20:34:42,026 Subject 38/46,   Brats17_TCIA_638_1, 
+2018-05-16 20:34:43,206 Subject 39/46,   Brats17_TCIA_646_1, 
+2018-05-16 20:34:44,711 Subject 40/46,   Brats17_TCIA_652_1, 
+2018-05-16 20:34:45,890 Subject 41/46,   Brats17_UAB_3446_1, 
+2018-05-16 20:34:47,092 Subject 42/46,   Brats17_UAB_3454_1, 
+2018-05-16 20:34:48,276 Subject 43/46,   Brats17_UAB_3455_1, 
+2018-05-16 20:34:49,518 Subject 44/46,   Brats17_UAB_3456_1, 
+2018-05-16 20:34:50,699 Subject 45/46,   Brats17_UAB_3498_1, 
+2018-05-16 20:34:51,923 Subject 46/46,   Brats17_UAB_3499_1, 
+2018-05-17 14:39:57,663 Subject 1/46,  Brats17_CBICA_AAM_1, 
+2018-05-17 14:39:59,729 Subject 2/46,  Brats17_CBICA_ABT_1, 
+2018-05-17 14:40:01,767 Subject 3/46,  Brats17_CBICA_ALA_1, 
+2018-05-17 14:40:03,796 Subject 4/46,  Brats17_CBICA_ALT_1, 
+2018-05-17 14:40:05,840 Subject 5/46,  Brats17_CBICA_ALV_1, 
+2018-05-17 14:40:07,865 Subject 6/46,  Brats17_CBICA_ALZ_1, 
+2018-05-17 14:40:09,897 Subject 7/46,  Brats17_CBICA_AMF_1, 
+2018-05-17 14:40:11,920 Subject 8/46,  Brats17_CBICA_AMU_1, 
+2018-05-17 14:40:13,929 Subject 9/46,  Brats17_CBICA_ANK_1, 
+2018-05-17 14:40:15,955 Subject 10/46,  Brats17_CBICA_APM_1, 
+2018-05-17 14:40:17,189 Subject 11/46,  Brats17_CBICA_AQE_1, 
+2018-05-17 14:40:19,151 Subject 12/46,  Brats17_CBICA_ARR_1, 
+2018-05-17 14:40:21,204 Subject 13/46,  Brats17_CBICA_ATW_1, 
+2018-05-17 14:40:23,234 Subject 14/46,  Brats17_CBICA_AUC_1, 
+2018-05-17 14:40:25,258 Subject 15/46,  Brats17_CBICA_AUE_1, 
+2018-05-17 14:40:27,276 Subject 16/46,  Brats17_CBICA_AZA_1, 
+2018-05-17 14:40:29,293 Subject 17/46,   Brats17_TCIA_195_1, 
+2018-05-17 14:40:32,043 Subject 18/46,   Brats17_TCIA_212_1, 
+2018-05-17 14:40:34,045 Subject 19/46,   Brats17_TCIA_216_1, 
+2018-05-17 14:40:35,506 Subject 20/46,   Brats17_TCIA_230_1, 
+2018-05-17 14:40:37,029 Subject 21/46,   Brats17_TCIA_248_1, 
+2018-05-17 14:40:39,054 Subject 22/46,   Brats17_TCIA_253_1, 
+2018-05-17 14:40:41,084 Subject 23/46,   Brats17_TCIA_288_1, 
+2018-05-17 14:40:43,141 Subject 24/46,   Brats17_TCIA_311_1, 
+2018-05-17 14:40:45,204 Subject 25/46,   Brats17_TCIA_313_1, 
+2018-05-17 14:40:47,227 Subject 26/46,   Brats17_TCIA_400_1, 
+2018-05-17 14:40:49,255 Subject 27/46,   Brats17_TCIA_600_1, 
+2018-05-17 14:40:51,271 Subject 28/46,   Brats17_TCIA_601_1, 
+2018-05-17 14:40:53,299 Subject 29/46,   Brats17_TCIA_602_1, 
+2018-05-17 14:40:54,769 Subject 30/46,   Brats17_TCIA_604_1, 
+2018-05-17 14:40:56,298 Subject 31/46,   Brats17_TCIA_609_1, 
+2018-05-17 14:40:58,374 Subject 32/46,   Brats17_TCIA_610_1, 
+2018-05-17 14:41:00,415 Subject 33/46,   Brats17_TCIA_611_1, 
+2018-05-17 14:41:02,625 Subject 34/46,   Brats17_TCIA_612_1, 
+2018-05-17 14:41:04,648 Subject 35/46,   Brats17_TCIA_613_1, 
+2018-05-17 14:41:06,659 Subject 36/46,   Brats17_TCIA_617_1, 
+2018-05-17 14:41:08,671 Subject 37/46,   Brats17_TCIA_636_1, 
+2018-05-17 14:41:10,667 Subject 38/46,   Brats17_TCIA_638_1, 
+2018-05-17 14:41:12,760 Subject 39/46,   Brats17_TCIA_646_1, 
+2018-05-17 14:41:13,997 Subject 40/46,   Brats17_TCIA_652_1, 
+2018-05-17 14:41:15,847 Subject 41/46,   Brats17_UAB_3446_1, 
+2018-05-17 14:41:17,889 Subject 42/46,   Brats17_UAB_3454_1, 
+2018-05-17 14:41:19,946 Subject 43/46,   Brats17_UAB_3455_1, 
+2018-05-17 14:41:21,976 Subject 44/46,   Brats17_UAB_3456_1, 
+2018-05-17 14:41:24,009 Subject 45/46,   Brats17_UAB_3498_1, 
+2018-05-17 14:41:26,040 Subject 46/46,   Brats17_UAB_3499_1, 
+2018-05-17 14:41:26,052 total time 1.7766 minutes

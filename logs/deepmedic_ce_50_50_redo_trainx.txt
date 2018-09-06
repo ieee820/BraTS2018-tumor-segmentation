@@ -1,0 +1,1227 @@
+2018-05-26 23:33:45,787 => loaded checkpoint '/home/thuyen/Data/brats17/src/ckpts/deepmedic_ce_50_50_redo/model_last.tar' (iter 2280)
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: /home/thuyen/Data/brats17/src/ckpts/deepmedic_ce_50_50_redo/model_last.tar
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 2280
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: Compose([ ToNumpy(), RandSelect(0.5, Flip(1)), RandSelect(0.5, Flip(2)),
+  RandSelect(0.5, Flip(3)), RandSelect(0.5, Noise(dim=3, num=2)), NumpyType((np.float32,
+  np.float32, np.int64)), ToTensor(), ])
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-26 23:33:46,007 --------------------------------------------------
+2018-05-26 23:33:46,008 Iter 2280, Epoch 500.0000, validate validation data
+2018-05-26 23:34:05,849 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: Compose([ ToNumpy(), RandSelect(0.5, Flip(1)), RandSelect(0.5, Flip(2)),
+  RandSelect(0.5, Flip(3)), RandSelect(0.5, Noise(dim=3, num=2)), NumpyType((np.float32,
+  np.float32, np.int64)), ToTensor(), ])
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-26 23:36:07,113 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: Compose([ ToNumpy(), RandSelect(0.5, Flip(1)), RandSelect(0.5, Flip(2)),
+  RandSelect(0.5, Flip(3)), RandSelect(0.5, Noise(dim=3, num=2)), NumpyType((np.float32,
+  np.float32, np.int64)), ToTensor(), ])
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-26 23:36:51,830 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: Compose([ ToNumpy(), RandSelect(0.5, Flip(1)), RandSelect(0.5, Flip(2)),
+  RandSelect(0.5, Flip(3)), RandSelect(0.5, Noise(dim=3, num=2)), NumpyType((np.float32,
+  np.float32, np.int64)), ToTensor(), ])
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-26 23:40:25,835 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: Compose([ ToNumpy(), RandSelect(0.5, Flip(1)), RandSelect(0.5, Flip(2)),
+  RandSelect(0.5, Flip(3)), RandSelect(0.5, Noise(dim=3, num=2)), NumpyType((np.float32,
+  np.float32, np.int64)), ToTensor(), ])
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-26 23:41:51,188 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: Compose([ ToNumpy(), RandSelect(0.5, Flip(1)), RandSelect(0.5, Flip(2)),
+  RandSelect(0.5, Flip(3)), RandSelect(0.5, Noise(dim=3, num=2)), NumpyType((np.float32,
+  np.float32, np.int64)), ToTensor(), ])
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-26 23:42:22,714 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: Compose([ ToNumpy(), RandSelect(0.5, Flip(1)), RandSelect(0.5, Flip(2)),
+  RandSelect(0.5, Flip(3)), RandSelect(0.5, Noise(dim=3, num=2)), NumpyType((np.float32,
+  np.float32, np.int64)), ToTensor(), ])
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-26 23:51:18,719 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: Compose([ ToNumpy(), RandSelect(0.5, Flip(1)), RandSelect(0.5, Flip(2)),
+  RandSelect(0.5, Flip(3)), RandSelect(0.5, Noise(dim=3, num=2)), NumpyType((np.float32,
+  np.float32, np.int64)), ToTensor(), ])
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-26 23:51:25,596 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: Compose([ ToNumpy(), RandSelect(0.5, Flip(1)), RandSelect(0.5, Flip(2)),
+  RandSelect(0.5, Flip(3)), RandSelect(0.5, Noise(dim=3, num=2)), NumpyType((np.float32,
+  np.float32, np.int64)), ToTensor(), ])
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-26 23:52:59,216 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-26 23:53:07,713 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:08:12,510 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:08:54,971 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:10:56,426 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:11:06,162 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:14:12,135 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:14:19,833 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:15:54,775 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:16:01,125 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:17:03,697 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:17:13,537 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:18:09,038 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:18:17,219 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:24:06,135 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:24:15,991 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:24:44,597 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:25:17,469 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:33:55,389 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_redo
+criterion: cross_entropy
+data_dir: /home/thuyen/Data/brats17/Brats17TrainingData
+dataset: DualData
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_redo
+net: DeepMedic
+net_params:
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /home/thuyen/Data/brats17/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2001
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /home/thuyen/Data/brats17/Brats17ValidationData
+test_transforms: TensorType((torch.float32, torch.int64))
+train_dir: /home/thuyen/Data/brats17/src/ckpts
+train_list: train_0.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64))
+valid_freq: 50
+valid_list: valid_0.txt
+workers: 6
+
+2018-05-27 00:34:25,407 Iter 1, Epoch 0.2193, Loss 1.2185
+2018-05-27 00:34:27,912 Iter 2, Epoch 0.4386, Loss 0.6431
+2018-05-27 00:34:30,411 Iter 3, Epoch 0.6579, Loss 0.5509

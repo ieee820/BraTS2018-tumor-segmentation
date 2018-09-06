@@ -1,0 +1,44 @@
+2018-07-12 02:46:20,492 -------------- New training session ----------------
+alpha: null
+batch_size: 50
+cfg: deepmedic_ce_50_50_c28_all_noaug
+criterion: cross_entropy
+data_dir: /usr/data/pkao/brats2018/training
+dataset: DualData28
+gpu: '0'
+mini_batch_size: 50
+name: deepmedic_ce_50_50_c28_all_noaug
+net: DeepMedic
+net_params:
+  c: 28
+  m: 150
+  n1: 30
+  n2: 40
+  n3: 50
+num_epochs: 500
+num_patches: 20
+opt: Adam
+opt_params:
+  amsgrad: true
+  lr: 0.001
+  weight_decay: 0.0001
+resume: {}
+root: /usr/data/pkao/brats2018/
+sample_size: 25
+save_freq: 50
+schedule:
+  300: null
+  400: null
+seed: 2443
+start_iter: 0
+sub_sample_size: 19
+target_size: 9
+test_data_dir: /usr/data/pkao/brats2018/validation
+test_transforms: TensorType((torch.float32, torch.int64, torch.int64))
+train_dir: /home/pkao/BraTS2018/segmentation/ckpts
+train_list: all.txt
+train_transforms: TensorType((torch.float32, torch.float32, torch.int64, torch.int64,
+  torch.int64))
+valid_freq: 50
+workers: 10
+

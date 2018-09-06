@@ -1,0 +1,47 @@
+net: DeepMedic
+net_params:
+  n1: 30
+  n2: 40
+  n3: 50
+  m: 150
+criterion: cross_entropy
+alpha: None
+dataset: DualData
+seed: 5460
+gpu: 0
+batch_size:  50 # load 50 cases (one subepoch)
+num_patches: 20 # extract 30 patches for each case
+mini_batch_size: 50 # for one update: originally batchSizeTrain = 10
+num_epochs: 500  # originally: 35E * 20SubE * 50Cases /227 = 160
+save_freq: 50    # save every 50 epochs
+valid_freq: 50   # validate every 10 epochs
+start_iter: 0
+opt: Adam
+opt_params:
+  lr: 0.001
+  #momentum: 0.9
+  weight_decay: 0.0001
+  amsgrad: true
+#opt: SGD
+#opt_params:
+#  lr: 0.01
+#  momentum: 0.9
+#  weight_decay: 0.0001
+workers: 16
+#schedule: {60, 120} # original for 160 epochs
+schedule: {150, 250} # based on epochs
+#data settings
+train_list: train_0.txt
+valid_list: valid_0.txt
+train_transforms: # for training, applied to both data and labels
+  Compose([
+    ToNumpy(),
+    RandSelect(0.5, Flip(1)),
+    RandSelect(0.5, Flip(2)),
+    RandSelect(0.5, Flip(3)),
+    RandSelect(0.5, Noise(dim=3, num=2)),
+    NumpyType((np.float32, np.float32, np.int64)),
+    ToTensor(),
+    ])
+test_transforms: # for training, applied to both data and labels
+  TensorType((torch.float32, torch.int64))
