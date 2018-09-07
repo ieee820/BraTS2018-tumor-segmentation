@@ -27,7 +27,7 @@ Install custom pytorch kernels from https://github.com/thuyen/multicrop
 
 The Harvard-Oxford subcortical atlases in subject space are stored at `BrainParcellation/HarvardOxford-sub`
 
-For using the brain parcellation on DeepMedic and 3D U-Net, please change the paths in 'data/parcellation.py' accordingly
+For using the brain parcellation on DeepMedic and 3D U-Net, please change the paths in `data/parcellation.py` accordingly
 
 ## How to run
 
@@ -55,7 +55,7 @@ python prep.py
 
 ### Prepare parcellation data:
 
-For using the brain parcellation for DeepMedic and 3D U-Net, please change the paths in 'data/parcellation.py' 
+For using the brain parcellation for DeepMedic and 3D U-Net, please change the paths in `data/parcellation.py` accordingly
 
 ```
 python data/parcellation.py
