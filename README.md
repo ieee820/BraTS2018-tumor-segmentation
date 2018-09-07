@@ -23,20 +23,25 @@ Install custom pytorch kernels from https://github.com/thuyen/multicrop
 
 
 ## How to run
+
 Change:
+
 ```
 experiments/settings.yaml
 ```
+
 to point to data directories. These are general settings, applied to all
 experiments. Additional experiment-specific configuration will overwrite
 these.
 
 Split data to 5 fold train/valid splits:
+
 ```
 python split.py
 ```
 
 Preprocess data (look at the script for more details):
+
 ```
 python prep.py
 ```
@@ -46,17 +51,27 @@ Prepare parcellation data:
 python data/parcellation.py
 ```
 
-For `deepmedic` run:
+For standard DeepMedic, run:
 ```
 python train.py --gpu 0 --cfg deepmedic_ce
 ```
 
-For `Unet` run:
+For DeepMedic with 12-by-12-by-12 output mask, run: 
+```
+python train_12.py --gpu 0 --cfg deepmedic_ce_28x20x12
+```
+
+For DeepMedic with 6-by-6-by-6 output mask, run: 
+```
+python train_6.py --gpu 0 --cfg deepmedic_ce_22X18X6
+```
+
+For 3D U-Net run:
 ```
 python train_unet.py --gpu 0 --cfg unet_dice2
 ```
 
-To make predictions, run `predict.py` or `predict_unet.py` with similar arguments
+To make predictions, run `predict.py`, `predict_6.py`, `predict_12.py` or `predict_unet.py` with similar arguments
 
 To make submissions, look at `make_submission.py`
 
