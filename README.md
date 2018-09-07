@@ -6,7 +6,7 @@ For more details about our methodology, please refer to our [paper](https://www.
 
 ## Citation
 
-The system was employed for our research presented in [1], where the we integrate multiple DeepMedics and 3D U-Nets in order to get a robust tumor segmentation mask. If the use of the software or the idea of the paper positively influences your endeavours, please cite [1].
+The system was employed for our research presented in [1], where the we integrate multiple DeepMedics and 3D U-Nets in order to get a robust tumor segmentation mask. We also utilize the brain parcellation masks for the purpose of bringing the location information to DeepMedic and 3D U-Net. If the use of the software or the idea of the paper positively influences your endeavours, please cite [1].
 
 [1] **Po-Yu Kao**, Thuyen Ngo, Angela Zhang, Jefferson Chen, and B. S. Manjunath, "[Brain Tumor Segmentation and Tractographic Feature Extraction from Structural MR Images for Overall Survival Prediction.](https://arxiv.org/abs/1807.07716)" arXiv preprint arXiv:1807.07716, 2018.
 
