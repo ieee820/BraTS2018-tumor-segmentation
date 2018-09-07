@@ -60,5 +60,8 @@ To make predictions, run `predict.py` or `predict_unet.py` with similar argument
 
 To make submissions, look at `make_submission.py`
 
+If you do not have enough space to save the data, you are able to compress the output maps to uint16 format `compress_data.py`
+
+To make submissions with compressed probability maps, please refer to `ensemble_methods.py`
 
 Special thanks to [Thuyen Ngo](https://github.com/thuyen).
