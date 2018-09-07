@@ -75,7 +75,7 @@ To make predictions, run `predict.py`, `predict_6.py`, `predict_12.py` or `predi
 
 To make submissions, look at `make_submission.py`
 
-If you do not have enough space to save the data, you are able to compress the output maps to uint16 format `compress_data.py`
+If you do not have enough memory to save the output probability maps, you are able to compress these maps to uint16 format by `compress_data.py`
 
 To make submissions with compressed probability maps, please refer to `ensemble_methods.py`
 
