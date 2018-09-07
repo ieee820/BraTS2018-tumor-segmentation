@@ -10,7 +10,7 @@ def nib_load(file_name):
     proxy.uncache()
     return data
 
-suffix = 'HarvardOxford-sub-maxprob-thr0-1mm'
+suffix = 'HarvardOxford-sub'
 
 #mask_dir = '/usr/data/pkao/brats2018/BrainParcellation/HarvardOxford-sub/training'
 #root = '/usr/data/pkao/brats2018/training'
