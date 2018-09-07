@@ -19,6 +19,10 @@ Pytorch0.4
 
 Install custom pytorch kernels from https://github.com/thuyen/multicrop
 
+Python libraries
+
+`pip install nibable`
+
 ## Create Binary Brain Parcellation Masks
 
 
