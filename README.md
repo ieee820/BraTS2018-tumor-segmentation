@@ -23,6 +23,12 @@ Install custom pytorch kernels from https://github.com/thuyen/multicrop
 
 `pip install nibable`
 
+## Brain Parcellation in Subject Space
+
+The Harvard-Oxford subcortical atlases in subject space are stored at `BrainParcellation/HarvardOxford-sub`
+
+For using the brain parcellation for DeepMedic and 3D U-Net, please change the paths in 'data/parcellation.py' 
+
 ## How to run
 
 Change:
@@ -48,6 +54,9 @@ python prep.py
 ```
 
 Prepare parcellation data:
+
+For using the brain parcellation for DeepMedic and 3D U-Net, please change the paths in 'data/parcellation.py' 
+
 ```
 python data/parcellation.py
 ```
