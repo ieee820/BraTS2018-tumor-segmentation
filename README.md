@@ -1,6 +1,6 @@
-# Deepmedic and Unet models for Brats2018 tumore segmentation competition
+# Deepmedic and 3D U-Net models for Brats2018 tumor segmentation competition
 
-Two popular deep learning models DeepMedic and 3D U-Net are created in PyTorch for the purpose of brain tumor segmentation.
+We created two popular deep learning models DeepMedic and 3D U-Net in PyTorch for the purpose of brain tumor segmentation.
 
 For more details about our methodology, please refer to our [paper](https://www.researchgate.net/publication/326549702_Brain_Tumor_Segmentation_and_Tractographic_Feature_Extraction_from_Structural_MR_Images_for_Overall_Survival_Prediction)
 
@@ -59,3 +59,6 @@ python train_unet.py --gpu 0 --cfg unet_dice2
 To make predictions, run `predict.py` or `predict_unet.py` with similar arguments
 
 To make submissions, look at `make_submission.py`
+
+
+Special thanks to [Thuyen Ngo](https://github.com/thuyen).
