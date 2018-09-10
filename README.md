@@ -30,11 +30,27 @@ Install custom pytorch kernels from https://github.com/thuyen/multicrop
 
 ## Required Python libraries
 
-`pip install nibable`
+nibable, nipype, natsort, SimpleITK
 
-## Brain Parcellation in Subject Space
+`pip install nibable,nipype,natsort,SimpleITK`
+
+## Required Sofware
+
+FSL (https://fsl.fmrib.ox.ac.uk/fsl/fslwiki/FslInstallation)
+
+## Existing Brain Parcellation in Subject Space for BraTS2018 dataset
 
 The Harvard-Oxford subcortical atlases in subject space are stored at `BrainParcellation/HarvardOxford-sub`
+
+## Create the HarvardOxford Subcortical Brain Parcellation to Subject Space for New BraTS Subject
+
+```
+python createBrainParcellation -n /DIR_TO_MR_T1.nii.gz -o /DIR_TO_SAVE_THE_BRAIN_PARCELLATION -n SUBJECTNAME
+```
+
+The name of the brain parcellation will be SUBJECTNAME_HarvardOxford-sub.nii.gz
+
+## Using Brain Parcellation on DeepMedic and 3D U-Net
 
 For using the brain parcellation on DeepMedic and 3D U-Net, please change the paths in `data/parcellation.py` accordingly
 
