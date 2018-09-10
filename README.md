@@ -4,6 +4,15 @@ We created two popular deep learning models DeepMedic and 3D U-Net in PyTorch fo
 
 For more details about our methodology, please refer to our [paper](https://www.researchgate.net/publication/326549702_Brain_Tumor_Segmentation_and_Tractographic_Feature_Extraction_from_Structural_MR_Images_for_Overall_Survival_Prediction)
 
+The performance of our proposed ensemble on BraTS 2018 dataset is shown in the following table:
+
+|Dataset|Dice(ET)|Dice(WT)|Dice(TC)|Sensitivity(ET)|Sensitivity(WT)|Sensitivity(TC)|Specificity(ET)|Specificity(WT)|Specificity(TC)|Hausdorff95(ET)|Hausdorff95(WT)|Hausdorff95(TC)|
+---|---|---|---|---|---|---|---|---|---|---|---
+Training|0.73547|0.90208|0.81348|0.79451|0.89877|0.80269|0.9945|0.99145|0.99343|32.2726|5.4231|9.3586
+Validation|0.7875|0.90473|0.81347|0.81113|0.921|0.79803|0.99803|0.99427|0.99827|3.81183|4.3231|7.5531
+
+For the training set, we use 5-folds cross validation. ET:Enhancing tumor, WT: whole tumor, TC: tumor core.
+
 ## Citation
 
 The system was employed for our research presented in [1], where the we integrate multiple DeepMedics and 3D U-Nets in order to get a robust tumor segmentation mask. We also utilize the brain parcellation masks for the purpose of bringing the location information to DeepMedic and 3D U-Net. If the use of the software or the idea of the paper positively influences your endeavours, please cite [1].
