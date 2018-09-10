@@ -25,10 +25,10 @@ def RegisterBrain(t1_path, ref_path, subject2mni_mat, mni2subject_mat):
     subprocess.call(["convert_xfm", "-omat", mni2subject_mat, "-inverse", subject2mni_mat])
     print('Finish this subject!')
 
-def RegisterLabels2Subject(refVol_path, bp_filepaths, mni2subject_mat):
+def RegisterLabels2Subject(refVol_path, bp_filepaths, mni2subject_mat, temp_dir):
 	''' register indivudial labels from MNI 152 space to subject space '''
 	for j in range(len(bp_filepaths)):
-		label_name = "./lab"+str(j+1)+".nii.gz"
+		label_name = os.path.join(temp_dir, "lab"+str(j+1)+".nii.gz")
 		# Register Brain Labels to Subject Space
 		subprocess.call(["flirt", "-in", bp_filepaths[j], "-ref", refVol_path, "-out", label_name, "-init", mni2subject_mat, "-applyxfm"])
 
@@ -53,31 +53,44 @@ parser.add_argument("-o", "--output", help="the output directory to save the sub
 parser.add_argument("-n", "--name", help="subject name", type=str)
 args = parser.parse_args()
 
-# N4ITK
+print("Creating a HarvardOxford Subcortical Brain Parcellation in the Subject Space!!!")
+
 filepath = args.input
-N4ITK_path = filepath[:filepath.find(".nii.gz")]+'_temp.nii.gz'
-# Apply bias correction on MR T1 image
-N4ITK(filepath, N4ITK_path)
+output_dir = args.output
+root_dir = os.path.split(filepath)[0]
+file_name = os.path.split(filepath)[1]
+temp_dir = os.path.join(root_dir, '.temp_bp')
+if not os.path.exists(temp_dir):
+	os.mkdir(temp_dir)
+
+# Apply N4ITK bias correction on MR t1 images
+N4ITK_name = file_name[:file_name.find(".nii.gz")]+'_temp.nii.gz'
+N4ITK_path = os.path.join(temp_dir, N4ITK_name)
+#N4ITK(filepath, N4ITK_path)
+
 
 # Registration
 mni152_1mm_path = './MNI152_T1_1mm_brain.nii.gz'
-subject2mni_path = filepath[:filepath.index('.nii.gz')]+'_invol2refvol.mat'
-mni2subject_path = filepath[:filepath.index('.nii.gz')]+'_refvol2invol.mat'
-RegisterBrain(N4ITK_path, mni152_1mm_path, subject2mni_path, mni2subject_path)
-brain_parcellation_path = './atlases/HarvardOxford'
+subject2mni_path = os.path.join(temp_dir, file_name[:file_name.index('.nii.gz')]+'_invol2refvol.mat')
+mni2subject_path = os.path.join(temp_dir, file_name[:file_name.index('.nii.gz')]+'_refvol2invol.mat')
+#RegisterBrain(N4ITK_path, mni152_1mm_path, subject2mni_path, mni2subject_path)
+
 
 # Mapping individual brain parcellation to subject
+brain_parcellation_path = './atlases/HarvardOxford'
 bp_filepaths = [os.path.join(root, name) for root, dirs, files in os.walk(brain_parcellation_path) for name in files if name.endswith('.nii.gz')]
 bp_filepaths = natsorted(bp_filepaths, key=lambda y: y.lower())
-RegisterLabels2Subject(filepath, bp_filepaths, mni2subject_path)
+refVol_path = filepath
+#RegisterLabels2Subject(refVol_path, bp_filepaths, mni2subject_path, temp_dir)
 
 # Merge individual labels to the brain parcellation in subject space using argmax
-subject_bp_filepaths = [os.path.join(root, name) for root, dirs, files in os.walk(os.path.split(filepath)[0]) for name in files if 'HarvardOxford' not in name and 'lab' in name and name.endswith('.nii.gz')]
+subject_bp_filepaths = [os.path.join(root, name) for root, dirs, files in os.walk(temp_dir) for name in files if 'HarvardOxford' not in name and 'lab' in name and name.endswith('.nii.gz')]
 subject_bp_filepaths = natsorted(subject_bp_filepaths, key=lambda y: y.lower())
-subject_name = os.path.join(os.path.split(filepath)[0], args.name+'_HarvardOxford-sub.nii.gz')
+subject_name = os.path.join(output_dir, args.name+'_HarvardOxford-sub.nii.gz')
 SubjectLabels2ParcellationArgmax(subject_bp_filepaths, subject_name)
 
 Remove(subject_bp_filepaths)
 os.remove(N4ITK_path)
 os.remove(subject2mni_path)
 os.remove(mni2subject_path)
+os.rmdir(temp_dir)
