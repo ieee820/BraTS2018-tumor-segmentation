@@ -1,4 +1,4 @@
-# Deepmedic and 3D U-Net models for Brats2018 tumor segmentation competition
+# Deepmedic and 3D U-Net models for [Brats2018 tumor segmentation competition](https://www.med.upenn.edu/sbia/brats2018/tasks.html)
 
 We created two popular deep learning models DeepMedic and 3D U-Net in PyTorch for the purpose of brain tumor segmentation.
 
